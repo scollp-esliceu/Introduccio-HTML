@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/">Index HTML</a></li>
+            <li><a href="simple.html">Simple HTML</a></li>
+            <li><a href="tables.html">Tables HTML</a></li>
+        </ul>
+    </header>
+    <h1>Tables a HTML</h1>
+    <section>
+        <h2>Exemple bàsic</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Profesió</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Pérez</td>
+                    <td>28</td>
+                    <td>Desenvolupadora</td>
+                </tr>
+                <tr>
+                    <td>Carlos Ruíz</td>
+                    <td>34</td>
+                    <td>Disenyador</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Colspan i rowspan</h2> 
+        <table border="1">
+            <th rowspan="2">PRODUCTE</th>
+            <th colspan="2">PREU</th>
+            <tr>
+                <th>UNITAT</th>
+                <th>TOTAL</th>    
+            </tr>
+            <tr>
+                <td>Pomes</td>
+                <td>2€</td>
+                <td>10€</td>
+            </tr>
+        </table>
+        <h2>HORARI</h2>
+        <table border="1">
+            <th>&nbsp;</th>
+            <th>Dilluns</th>
+            <th>Dimaarts</th>
+            <th>Dimecres</th>
+            <th>Dijous</th>
+            <th>Divendres</th>
+            <tr>
+                <th>15:00</th>
+                <td rowspan="2">Serveis en Xarxa</td>
+                <td rowspan="2">Sistemes Operatius</td>
+                <td>Sostenibilitat</td>
+                <td rowspan="3">Aplicacions WEB</td>
+                <td rowspan="2">Aplicacions WEB</td>
+            </tr>
+            <tr>
+                <th>15:55</th>
+                <td rowspan="2">Seguretat</td>
+            
+            </tr>
+            <tr>
+                <th>16:50</th>
+                <td>Seguretat</td>
+                <td>Serveis en Xarxa</td>
+                <td>IPO II</td>
+            </tr>
+            <tr>
+                <th>17:45</th>
+                <td colspan="5">Pati</td>
+            </tr>
+            <tr>
+                <th>18:15</th>
+                <td>Seguretat</td>
+                <td>Serveis en Xarxa</td>
+                <td>Seguretat</td>
+                <td rowspan="3">Serveis en Xarxa</td>
+                <td rowspan="3">Sistemes Operatius</td>
+
+            </tr>
+            <tr>
+                <th>19:10</th>
+                <td rowspan="2">Projecte Intermodular</td>
+                <td rowspan="2">Programació</td>
+                <td rowspan="2">Sistemes Operatius</td>
+            </tr>
+            <tr>
+                <th>20:05</th>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
