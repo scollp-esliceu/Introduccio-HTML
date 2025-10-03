@@ -6,23 +6,65 @@
     <title>IntroduccióHTML</title>
 </head>
 <body>
+    <!--CAPÇELERA-->
     <header>
-        <ul>
-            <li><a href="/">Index HTML</a></li>
-            <li><a href="simple.html">Simple HTML</a></li>
-            <li><a href="tables.html">Tables HTML</a></li>
-            <li><a href="simple2.html">Simple 2 HTML</a></li>
-            <li><a href="registre.html">Registre HTML</a></li>
-            <li><a href="productes.html">Productes HTML</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="/">Index HTML</a></li>
+                <li><a href="simple.html">Simple HTML</a></li>
+                <li><a href="tables.html">Tables HTML</a></li>
+                <li><a href="simple2.html">Simple 2 HTML</a></li>
+                <li><a href="registre.html">Registre HTML</a></li>
+                <li><a href="productes.html">Productes HTML</a></li>
+            </ul>
+        </nav>
     </header>
-    <h1>El meu primer document HTML</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est necessitatibus veniam quae vitae ipsa fugiat? Exercitationem aperiam eveniet optio?
-    </p>
-    <h2>Això és un h2</h2>
-    <p>Lorem ipsum dolor sit.</p>
+    <!-- HERO O BENVINGUDA-->
+     <section id="hero">
+        <h1>Benvinguts a la pàgina d'en Sergi</h1>
+        <p>
+            Aquesta és la "landing" del meu projecte.
+        </p>
+        </section>
 
-    
+        <!--Secció de Serveis-->
+        <section id="servicios">
+            <div class="servicio">
+                <img src="img/200.png" height="200">
+                <h2>Desenvolupament web</h2> 
+                <p>Descripció del servei 1</p>   
+            </div>
+            <div class="servicio">
+                <img src="img/200.png" height="200">
+                <h2>Disseny CSS</h2>
+                <p>Descripció del servei 2</p>
+            </div>
+            <div class="servicio">
+                <img src="img/200.png" height="200">
+                <h2>Servei 3</h2>
+                <p>Descripció del servei 3</p>
+            </div>
+        </section>
+        
+        <!--Secció sobre noltes-->
+        <secttion id="sobre">
+            <h2>Sobre noltes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quos!</p>
+        </secttion>
+
+        <!--Contacte-->
+        <section id="contacte">
+            <h2>Contacte</h2>
+            <div class="info-contacte">
+                <p>Email: correu@test.es</p>
+                <p>Telèfon: 123 456 789</p>
+            </div>
+        </section>    
+
+        <!--Footer-->
+
+        <footer>
+            <p>&copy; 2025 Mi Landing Page. Tots els drets reservats.</p>
+        </footer>
 </body>
 </html>
