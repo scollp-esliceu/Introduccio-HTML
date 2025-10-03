@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/">Index HTML</a></li>
+            <li><a href="simple.html">Simple HTML</a></li>
+            <li><a href="tables.html">Tables HTML</a></li>
+            <li><a href="simple2.html">Simple 2 HTML</a></li>
+            <li><a href="registre.html">Registre HTML</a></li>
+        </ul>
+    </header>
+    <h1>Exercici, formulari de registre</h1>
+    <form>
+    <div>
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" required placeholder="Introdueix el teu nom">
+    <label for="cognoms">Cognoms</label>
+    <input type="text" id="cognoms" required placeholder="Introdueix els teus cognoms">
+    </div>
+    <label>Genere</label>
+    <input type="radio" id="home" name="genere" value="home" required> 
+    <label for="home">Home</label>
+    <input type="radio" id="dona" name="genere" value="dona" required>
+    <label for="dona">Dona</label>
+    <input type="radio" id="altres" name="genere" value="altres" required>
+    <label for="altres">Altres</label>
+    <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" required placeholder="Introdueix el teu email">
+    <label for="contrasenya">Contrasenya</label>
+    <input type="password" id="contrasenya" required placeholder="Introdueix la teva contrasenya" minlength="5" maxlength="10">
+    </div>
+    <div>
+        <label for="data-naixement">Data de naixement</label>
+        <input type="date" id="data-naixement" required>
+    </div>
+    <div>
+        <label for="Estic-acord">Estic d'acord amb els termes i condicions</label>
+        <input type="checkbox" id="Estic-acord" required>
+    </div>
+    <div>
+        <label for="submit">Enviar</label>
+        <input type="submit" name="submit" value="Enviar">
+    </div>
+    </form>
+</body>
+</html>
