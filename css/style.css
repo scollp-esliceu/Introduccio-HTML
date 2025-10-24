@@ -199,7 +199,7 @@ h3 {
     font-size: 30px;
 }
 
-ul {
+.Llegenda {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
@@ -208,7 +208,7 @@ ul {
     padding: 0;
 }
 
-li {
+.Llegenda li {
     list-style: none;
     color: black;
     margin: 10px;

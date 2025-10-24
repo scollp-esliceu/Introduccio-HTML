@@ -5,20 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horari</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/">Index HTML</a></li>
-                <li><a href="simple.html">Simple HTML</a></li>
-                <li><a href="tables.html">Tables HTML</a></li>
-                <li><a href="simple2.html">Simple 2 HTML</a></li>
-                <li><a href="registre.html">Registre HTML</a></li>
-                <li><a href="productes.html">Productes HTML</a></li>
-                <li><a href="horari.html">Horari HTML</a></li>
-            </ul>
-        </nav>
+        <section class="header-icone">
+            <a href="index.html">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100"
+                height="100"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#CD5C5C"
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                >
+                <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                </svg>
+            </a>
+        </section>
+        <section class="header-container">
+
+                <nav>
+                    <ul>
+                        <li><a href="/">Index HTML</a></li>
+                        <li><a href="simple.html">Simple HTML</a></li>
+                        <li><a href="tables.html">Tables HTML</a></li>
+                        <li><a href="simple2.html">Simple 2 HTML</a></li>
+                        <li><a href="registre.html">Registre HTML</a></li>
+                        <li><a href="productes.html">Productes HTML</a></li>
+                        <li><a href="horari.html">Horari HTML</a></li>
+                    </ul>
+                </nav>
+        </section>
     </header>
     <h2>HORARI</h2>
         <table>
@@ -73,7 +96,7 @@
 
     <section>
         <h3>Llegenda</h3>
-        <ul>
+        <ul class="Llegenda">
             <li class="serveis">Serveis - Pedro Serveto</li>
             <li class="programacio">Programació - <span class="profe">Pedro Serveto</span></li>
             <li class="sistemes">Sistemes - <span class="profe">Manu Martinez</span></li>
