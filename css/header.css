@@ -1,3 +1,8 @@
+:root{
+    --principal: #f0f0f0;
+    --secundari: indianred;
+}
+
 html{
     box-sizing: border-box;
     margin: 0px;
@@ -9,8 +14,8 @@ body{
     margin: 0;
 }
 header {
-    background-color: #f0f0f0;
-    color: indianred;
+    background-color: var(--principal);
+    color: var(--secundari);
     height: 8rem;
     display: flex;
     text-align: center;
@@ -23,7 +28,7 @@ header {
     height: auto;
     margin-right: 2rem;
     margin-left: 1rem;
-    color: indianred;
+    color: var(--secundari);
     padding-top: 0.8rem;
 }
 .header-container{
@@ -49,7 +54,7 @@ header {
 
 
 .header-container a{
-    color: indianred;
+    color: var(--secundari);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
@@ -58,8 +63,8 @@ header {
 }
 
 .header-container a:hover {
-    background-color: indianred;
-    color: #f0f0f0;
+    background-color: var(--secundari);
+    color: var(--principal);
 }
 
 @media (min-width: 768px) {
